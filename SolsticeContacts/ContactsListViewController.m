@@ -106,7 +106,7 @@ static NSString *kContactsListCellIdentifier = @"ContactsListCell";
         NSDictionary *phoneDetails = contact[@"phone"];
         details.workPhone = phoneDetails[@"work"];
         
-        NSData * imageData;
+        NSData *imageData;
         NSString *smallImageDetailsURL = contact[@"smallImageURL"];
         imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:smallImageDetailsURL]];
         details.smallDetailsImage = [UIImage imageWithData:imageData];
