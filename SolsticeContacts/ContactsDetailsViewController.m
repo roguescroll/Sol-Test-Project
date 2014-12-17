@@ -20,6 +20,7 @@
 @property (nonatomic, weak) IBOutlet UILabel *emailLabel;
 @property (nonatomic, weak) IBOutlet UILabel *birthDateLabel;
 @property (nonatomic, weak) IBOutlet UIImageView *detailsImageView;
+@property (nonatomic, weak) IBOutlet UIImageView *favoriteIconImageView;
 
 @property (nonatomic, strong) ContactListDetails *contactListDetails;
 @property (nonatomic, strong) PersonDetails *personDetails;
@@ -60,6 +61,8 @@
     self.detailsImageView.layer.cornerRadius = 9.0;
     self.detailsImageView.layer.masksToBounds = YES;
     self.detailsImageView.image = self.personDetails.largeImage;
+    
+    self.favoriteIconImageView.hidden = !self.personDetails.favorite;
 }
 
 #pragma mark - Private Methods
@@ -76,7 +79,7 @@
                                                                  options:0
                                                                    error:&jsonParsingError];
     
-    self.personDetails.favorite = contactsDetailsDict[@"favorite"];
+    self.personDetails.favorite = [contactsDetailsDict[@"favorite"] boolValue];
     self.personDetails.email = contactsDetailsDict[@"email"];
     self.personDetails.website = contactsDetailsDict[@"website"];
     

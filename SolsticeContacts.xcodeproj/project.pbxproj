@@ -18,6 +18,7 @@
 		CFE823FA1A41191700920147 /* ContactsDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */; };
 		CFE823FD1A412A4B00920147 /* ContactListDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823FC1A412A4B00920147 /* ContactListDetails.m */; };
 		CFE824001A412A7800920147 /* PersonDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823FF1A412A7800920147 /* PersonDetails.m */; };
+		CFE824021A412E7900920147 /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE824011A412E7900920147 /* favorites.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CFE823FC1A412A4B00920147 /* ContactListDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListDetails.m; sourceTree = "<group>"; };
 		CFE823FE1A412A7800920147 /* PersonDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetails.h; sourceTree = "<group>"; };
 		CFE823FF1A412A7800920147 /* PersonDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetails.m; sourceTree = "<group>"; };
+		CFE824011A412E7900920147 /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CFE823CF1A41168E00920147 /* Main.storyboard */,
 				CFE823D41A41168E00920147 /* LaunchScreen.xib */,
 				CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */,
+				CFE824011A412E7900920147 /* favorites.png */,
 				CFE823C51A41168E00920147 /* Supporting Files */,
 			);
 			path = SolsticeContacts;
@@ -235,6 +238,7 @@
 			files = (
 				CFE823D11A41168E00920147 /* Main.storyboard in Resources */,
 				CFE823D61A41168E00920147 /* LaunchScreen.xib in Resources */,
+				CFE824021A412E7900920147 /* favorites.png in Resources */,
 				CFE823FA1A41191700920147 /* ContactsDetailsViewController.xib in Resources */,
 				CFE823D31A41168E00920147 /* Images.xcassets in Resources */,
 			);
