@@ -104,7 +104,16 @@ static NSString *kContactsListCellIdentifier = @"ContactsListCell";
         details.company = contact[@"company"];
         
         NSDictionary *phoneDetails = contact[@"phone"];
+        details.homePhone = phoneDetails[@"home"];
         details.workPhone = phoneDetails[@"work"];
+        details.mobilePhone = phoneDetails[@"mobile"];
+        
+        NSString *birthDateString = contact[@"birthdate"];
+        NSInteger birthDateInteger = [birthDateString integerValue];
+        NSDate *date = [NSDate dateWithTimeIntervalSince1970:birthDateInteger];
+        details.birthDate = [NSDateFormatter localizedStringFromDate:date
+                                                                      dateStyle:NSDateFormatterShortStyle
+                                                                      timeStyle:NSDateFormatterNoStyle];
         
         NSData *imageData;
         NSString *smallImageDetailsURL = contact[@"smallImageURL"];

@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactsDetailsViewController">
             <connections>
+                <outlet property="birthDateLabel" destination="KS1-Su-0xV" id="rBf-eU-o8h"/>
                 <outlet property="cityAndStateLabel" destination="DVI-BC-DqP" id="YTE-p5-Hr2"/>
                 <outlet property="companyLabel" destination="YWc-3S-E2k" id="57g-vN-2WF"/>
                 <outlet property="detailsImageView" destination="Qde-SQ-oCe" id="hzd-k9-Wri"/>

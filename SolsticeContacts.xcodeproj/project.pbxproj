@@ -14,10 +14,10 @@
 		CFE823D61A41168E00920147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE823D41A41168E00920147 /* LaunchScreen.xib */; };
 		CFE823E21A41168E00920147 /* SolsticeContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823E11A41168E00920147 /* SolsticeContactsTests.m */; };
 		CFE823ED1A4116C200920147 /* ContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823EC1A4116C200920147 /* ContactsListViewController.m */; };
-		CFE823F31A41171D00920147 /* ContactListDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823F01A41171D00920147 /* ContactListDetails.m */; };
-		CFE823F41A41171D00920147 /* ContactDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823F21A41171D00920147 /* ContactDetails.m */; };
 		CFE823F71A41175200920147 /* ContactsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823F61A41175200920147 /* ContactsDetailsViewController.m */; };
 		CFE823FA1A41191700920147 /* ContactsDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */; };
+		CFE823FD1A412A4B00920147 /* ContactListDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823FC1A412A4B00920147 /* ContactListDetails.m */; };
+		CFE824001A412A7800920147 /* PersonDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823FF1A412A7800920147 /* PersonDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +44,13 @@
 		CFE823E11A41168E00920147 /* SolsticeContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolsticeContactsTests.m; sourceTree = "<group>"; };
 		CFE823EB1A4116C200920147 /* ContactsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsListViewController.h; sourceTree = "<group>"; };
 		CFE823EC1A4116C200920147 /* ContactsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsListViewController.m; sourceTree = "<group>"; };
-		CFE823EF1A41171D00920147 /* ContactListDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListDetails.h; sourceTree = "<group>"; };
-		CFE823F01A41171D00920147 /* ContactListDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListDetails.m; sourceTree = "<group>"; };
-		CFE823F11A41171D00920147 /* ContactDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetails.h; sourceTree = "<group>"; };
-		CFE823F21A41171D00920147 /* ContactDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetails.m; sourceTree = "<group>"; };
 		CFE823F51A41175200920147 /* ContactsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDetailsViewController.h; sourceTree = "<group>"; };
 		CFE823F61A41175200920147 /* ContactsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDetailsViewController.m; sourceTree = "<group>"; };
 		CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsDetailsViewController.xib; sourceTree = "<group>"; };
+		CFE823FB1A412A4B00920147 /* ContactListDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListDetails.h; sourceTree = "<group>"; };
+		CFE823FC1A412A4B00920147 /* ContactListDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListDetails.m; sourceTree = "<group>"; };
+		CFE823FE1A412A7800920147 /* PersonDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetails.h; sourceTree = "<group>"; };
+		CFE823FF1A412A7800920147 /* PersonDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +134,10 @@
 		CFE823EE1A41171100920147 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CFE823EF1A41171D00920147 /* ContactListDetails.h */,
-				CFE823F01A41171D00920147 /* ContactListDetails.m */,
-				CFE823F11A41171D00920147 /* ContactDetails.h */,
-				CFE823F21A41171D00920147 /* ContactDetails.m */,
+				CFE823FB1A412A4B00920147 /* ContactListDetails.h */,
+				CFE823FC1A412A4B00920147 /* ContactListDetails.m */,
+				CFE823FE1A412A7800920147 /* PersonDetails.h */,
+				CFE823FF1A412A7800920147 /* PersonDetails.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -255,11 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE823F71A41175200920147 /* ContactsDetailsViewController.m in Sources */,
-				CFE823F41A41171D00920147 /* ContactDetails.m in Sources */,
 				CFE823ED1A4116C200920147 /* ContactsListViewController.m in Sources */,
 				CFE823CB1A41168E00920147 /* AppDelegate.m in Sources */,
 				CFE823C81A41168E00920147 /* main.m in Sources */,
-				CFE823F31A41171D00920147 /* ContactListDetails.m in Sources */,
+				CFE823FD1A412A4B00920147 /* ContactListDetails.m in Sources */,
+				CFE824001A412A7800920147 /* PersonDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
