@@ -116,7 +116,7 @@ static NSString *kContactsListCellIdentifier = @"ContactsListCell";
         NSInteger birthDateInteger = [birthDateString integerValue];
         NSDate *date = [NSDate dateWithTimeIntervalSince1970:birthDateInteger];
         details.birthDate = [NSDateFormatter localizedStringFromDate:date
-                                                                      dateStyle:NSDateFormatterShortStyle
+                                                                      dateStyle:NSDateFormatterLongStyle
                                                                       timeStyle:NSDateFormatterNoStyle];
         
         NSData *imageData;
