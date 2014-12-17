@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactsListCell" id="w9P-OT-auM">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="w9P-OT-auM">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w9P-OT-auM" id="EkU-xA-Zlk">
                                     <autoresizingMask key="autoresizingMask"/>

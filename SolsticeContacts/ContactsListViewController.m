@@ -64,9 +64,9 @@ static NSString *kContactsListCellIdentifier = @"ContactsListCell";
     
     ContactListDetails *contactAtIndex = [self.contactDetailsArray objectAtIndex:indexPath.section];
     
-    cell.textLabel.text = [contactAtIndex name];
-    cell.detailTextLabel.text = [contactAtIndex workPhone];
-    cell.imageView.image = [contactAtIndex smallDetailsImage];
+    cell.textLabel.text = contactAtIndex.name;
+    cell.detailTextLabel.text = contactAtIndex.homePhone;
+    cell.imageView.image = contactAtIndex.smallDetailsImage;
     
     return cell;
 }
