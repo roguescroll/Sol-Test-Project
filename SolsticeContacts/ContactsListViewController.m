@@ -83,6 +83,10 @@ static NSString *kContactsListCellIdentifier = @"ContactsListCell";
 
 #pragma mark - Private Methods
 
+/**
+ Makes a request to the URL having the contacts json, serializes it and creates an array of the ContactDetails Object
+ containing details about each contact.
+ */
 - (void)fetchContactList
 {
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://solstice.applauncher.com/external/contacts.json"]];

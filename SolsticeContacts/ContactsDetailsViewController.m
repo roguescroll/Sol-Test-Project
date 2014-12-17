@@ -67,6 +67,10 @@
 
 #pragma mark - Private Methods
 
+/**
+ Makes a request to the URL having the persons details json, serializes it and creates an array of the PersonDetails Object
+ containing details about each contact.
+ */
 - (void)fetchDetails
 {
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.contactListDetails.detailsURL]];

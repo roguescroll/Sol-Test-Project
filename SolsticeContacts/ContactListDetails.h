@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+/**
+ Object containing the details of a contact.
+ */
 @interface ContactListDetails : NSObject
 
 @property (nonatomic, copy) NSString *name;

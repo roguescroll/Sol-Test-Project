@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+/**
+ Object containing additional details of the person.
+ */
 @interface PersonDetails : NSObject
 
 @property (nonatomic) BOOL favorite;
