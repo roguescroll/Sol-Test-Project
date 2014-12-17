@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFE823C81A41168E00920147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823C71A41168E00920147 /* main.m */; };
+		CFE823CB1A41168E00920147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823CA1A41168E00920147 /* AppDelegate.m */; };
+		CFE823D11A41168E00920147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE823CF1A41168E00920147 /* Main.storyboard */; };
+		CFE823D31A41168E00920147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE823D21A41168E00920147 /* Images.xcassets */; };
+		CFE823D61A41168E00920147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE823D41A41168E00920147 /* LaunchScreen.xib */; };
+		CFE823E21A41168E00920147 /* SolsticeContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823E11A41168E00920147 /* SolsticeContactsTests.m */; };
+		CFE823ED1A4116C200920147 /* ContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823EC1A4116C200920147 /* ContactsListViewController.m */; };
+		CFE823F31A41171D00920147 /* ContactListDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823F01A41171D00920147 /* ContactListDetails.m */; };
+		CFE823F41A41171D00920147 /* ContactDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823F21A41171D00920147 /* ContactDetails.m */; };
+		CFE823F71A41175200920147 /* ContactsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE823F61A41175200920147 /* ContactsDetailsViewController.m */; };
+		CFE823FA1A41191700920147 /* ContactsDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFE823DC1A41168E00920147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE823BA1A41168D00920147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE823C11A41168D00920147;
+			remoteInfo = SolsticeContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFE823C21A41168D00920147 /* SolsticeContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolsticeContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE823C61A41168E00920147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE823C71A41168E00920147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFE823C91A41168E00920147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFE823CA1A41168E00920147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFE823D01A41168E00920147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFE823D21A41168E00920147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFE823D51A41168E00920147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFE823DB1A41168E00920147 /* SolsticeContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolsticeContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE823E01A41168E00920147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE823E11A41168E00920147 /* SolsticeContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolsticeContactsTests.m; sourceTree = "<group>"; };
+		CFE823EB1A4116C200920147 /* ContactsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsListViewController.h; sourceTree = "<group>"; };
+		CFE823EC1A4116C200920147 /* ContactsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsListViewController.m; sourceTree = "<group>"; };
+		CFE823EF1A41171D00920147 /* ContactListDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListDetails.h; sourceTree = "<group>"; };
+		CFE823F01A41171D00920147 /* ContactListDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListDetails.m; sourceTree = "<group>"; };
+		CFE823F11A41171D00920147 /* ContactDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetails.h; sourceTree = "<group>"; };
+		CFE823F21A41171D00920147 /* ContactDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetails.m; sourceTree = "<group>"; };
+		CFE823F51A41175200920147 /* ContactsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDetailsViewController.h; sourceTree = "<group>"; };
+		CFE823F61A41175200920147 /* ContactsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDetailsViewController.m; sourceTree = "<group>"; };
+		CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE823BF1A41168D00920147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE823D81A41168E00920147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE823B91A41168D00920147 = {
+			isa = PBXGroup;
+			children = (
+				CFE823C41A41168D00920147 /* SolsticeContacts */,
+				CFE823DE1A41168E00920147 /* SolsticeContactsTests */,
+				CFE823C31A41168D00920147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE823C31A41168D00920147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823C21A41168D00920147 /* SolsticeContacts.app */,
+				CFE823DB1A41168E00920147 /* SolsticeContactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE823C41A41168D00920147 /* SolsticeContacts */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823F81A41176F00920147 /* Controllers */,
+				CFE823EE1A41171100920147 /* Models */,
+				CFE823C91A41168E00920147 /* AppDelegate.h */,
+				CFE823CA1A41168E00920147 /* AppDelegate.m */,
+				CFE823CF1A41168E00920147 /* Main.storyboard */,
+				CFE823D21A41168E00920147 /* Images.xcassets */,
+				CFE823D41A41168E00920147 /* LaunchScreen.xib */,
+				CFE823F91A41191700920147 /* ContactsDetailsViewController.xib */,
+				CFE823C51A41168E00920147 /* Supporting Files */,
+			);
+			path = SolsticeContacts;
+			sourceTree = "<group>";
+		};
+		CFE823C51A41168E00920147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823C61A41168E00920147 /* Info.plist */,
+				CFE823C71A41168E00920147 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFE823DE1A41168E00920147 /* SolsticeContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823E11A41168E00920147 /* SolsticeContactsTests.m */,
+				CFE823DF1A41168E00920147 /* Supporting Files */,
+			);
+			path = SolsticeContactsTests;
+			sourceTree = "<group>";
+		};
+		CFE823DF1A41168E00920147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823E01A41168E00920147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFE823EE1A41171100920147 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823EF1A41171D00920147 /* ContactListDetails.h */,
+				CFE823F01A41171D00920147 /* ContactListDetails.m */,
+				CFE823F11A41171D00920147 /* ContactDetails.h */,
+				CFE823F21A41171D00920147 /* ContactDetails.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CFE823F81A41176F00920147 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFE823EB1A4116C200920147 /* ContactsListViewController.h */,
+				CFE823EC1A4116C200920147 /* ContactsListViewController.m */,
+				CFE823F51A41175200920147 /* ContactsDetailsViewController.h */,
+				CFE823F61A41175200920147 /* ContactsDetailsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE823C11A41168D00920147 /* SolsticeContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE823E51A41168E00920147 /* Build configuration list for PBXNativeTarget "SolsticeContacts" */;
+			buildPhases = (
+				CFE823BE1A41168D00920147 /* Sources */,
+				CFE823BF1A41168D00920147 /* Frameworks */,
+				CFE823C01A41168D00920147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolsticeContacts;
+			productName = SolsticeContacts;
+			productReference = CFE823C21A41168D00920147 /* SolsticeContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE823DA1A41168E00920147 /* SolsticeContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE823E81A41168E00920147 /* Build configuration list for PBXNativeTarget "SolsticeContactsTests" */;
+			buildPhases = (
+				CFE823D71A41168E00920147 /* Sources */,
+				CFE823D81A41168E00920147 /* Frameworks */,
+				CFE823D91A41168E00920147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE823DD1A41168E00920147 /* PBXTargetDependency */,
+			);
+			name = SolsticeContactsTests;
+			productName = SolsticeContactsTests;
+			productReference = CFE823DB1A41168E00920147 /* SolsticeContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE823BA1A41168D00920147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ashwin Raghuraman";
+				TargetAttributes = {
+					CFE823C11A41168D00920147 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CFE823DA1A41168E00920147 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CFE823C11A41168D00920147;
+					};
+				};
+			};
+			buildConfigurationList = CFE823BD1A41168D00920147 /* Build configuration list for PBXProject "SolsticeContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE823B91A41168D00920147;
+			productRefGroup = CFE823C31A41168D00920147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE823C11A41168D00920147 /* SolsticeContacts */,
+				CFE823DA1A41168E00920147 /* SolsticeContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE823C01A41168D00920147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE823D11A41168E00920147 /* Main.storyboard in Resources */,
+				CFE823D61A41168E00920147 /* LaunchScreen.xib in Resources */,
+				CFE823FA1A41191700920147 /* ContactsDetailsViewController.xib in Resources */,
+				CFE823D31A41168E00920147 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE823D91A41168E00920147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE823BE1A41168D00920147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE823F71A41175200920147 /* ContactsDetailsViewController.m in Sources */,
+				CFE823F41A41171D00920147 /* ContactDetails.m in Sources */,
+				CFE823ED1A4116C200920147 /* ContactsListViewController.m in Sources */,
+				CFE823CB1A41168E00920147 /* AppDelegate.m in Sources */,
+				CFE823C81A41168E00920147 /* main.m in Sources */,
+				CFE823F31A41171D00920147 /* ContactListDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE823D71A41168E00920147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE823E21A41168E00920147 /* SolsticeContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE823DD1A41168E00920147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE823C11A41168D00920147 /* SolsticeContacts */;
+			targetProxy = CFE823DC1A41168E00920147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFE823CF1A41168E00920147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE823D01A41168E00920147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFE823D41A41168E00920147 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE823D51A41168E00920147 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE823E31A41168E00920147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE823E41A41168E00920147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE823E61A41168E00920147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolsticeContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFE823E71A41168E00920147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolsticeContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFE823E91A41168E00920147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolsticeContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolsticeContacts.app/SolsticeContacts";
+			};
+			name = Debug;
+		};
+		CFE823EA1A41168E00920147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SolsticeContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolsticeContacts.app/SolsticeContacts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE823BD1A41168D00920147 /* Build configuration list for PBXProject "SolsticeContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE823E31A41168E00920147 /* Debug */,
+				CFE823E41A41168E00920147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE823E51A41168E00920147 /* Build configuration list for PBXNativeTarget "SolsticeContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE823E61A41168E00920147 /* Debug */,
+				CFE823E71A41168E00920147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFE823E81A41168E00920147 /* Build configuration list for PBXNativeTarget "SolsticeContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE823E91A41168E00920147 /* Debug */,
+				CFE823EA1A41168E00920147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE823BA1A41168D00920147 /* Project object */;
+}
